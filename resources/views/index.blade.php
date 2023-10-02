@@ -34,8 +34,8 @@
 
     <div class="container">
         {{-- tambah data --}}
-        <div class="card">
-            <a href="/tambah_data">Tambah data</a>
+        <div class="card" style="width: 10rem;">
+            <a href="/tambah_data" class="btn btn-success">Tambah data</a>
         </div>
 
         {{-- tabel data --}}

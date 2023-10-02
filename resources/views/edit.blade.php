@@ -19,49 +19,49 @@
                         Kategori
                         <div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="1" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="1" {{ $produk->kategori_id == 1 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault1" >
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     CI MTH TINTA LAIN (IM)
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="2" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="2" {{ $produk->kategori_id == 2 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault2" >
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     L MTH AKSESORIS (IM)
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="3" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="3" {{ $produk->kategori_id == 3 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault3">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     L MTH AKSESORIS (LK)
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="4" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="4" {{ $produk->kategori_id == 4 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault4" >
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     L MTH TABUNG (LK)
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="5" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="5" {{ $produk->kategori_id == 5 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault5">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     L QUEENLY
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="6" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="6" {{ $produk->kategori_id == 6 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault6" >
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     S MTH STEMPEL (IM)
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" value="7" name="inputketegori"
+                                <input class="form-check-input" type="radio" value="7" {{ $produk->kategori_id == 7 ? 'checked' : '' }} name="inputkategori"
                                     id="flexRadioDefault7" >
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     SP MTH SPAREPART (LK)
@@ -69,9 +69,8 @@
                             </div>
                         </div>
                         <select class="form-select form-select-sm" aria-label="Small select example" name="inputstatus" >
-                            <option value="" >Pilih Di bawah ini</option>
-                            <option value="1" >Bisa Dijual</option>
-                            <option value="2" >Tidak Bisa Dijual</option>
+                            <option value="1" {{ $produk->status_id == 1 ? 'selected' : '' }}>Bisa Dijual</option>
+                            <option value="2" {{ $produk->status_id == 2 ? 'selected' : '' }}>Tidak Bisa Dijual</option>
                         </select>                             
                     </ul>
                     <input type="submit" value="ubah data" class="btn btn-success">

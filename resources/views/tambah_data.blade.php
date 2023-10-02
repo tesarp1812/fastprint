@@ -30,49 +30,49 @@
                     <label for="">Kategori</label>
                     <div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="1" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="1" name="inputkategori"
                                 id="flexRadioDefault1" required>
                             <label class="form-check-label" for="flexRadioDefault1">
                                 CI MTH TINTA LAIN (IM)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="2" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="2" name="inputkategori"
                                 id="flexRadioDefault2" >
                             <label class="form-check-label" for="flexRadioDefault2">
                                 L MTH AKSESORIS (IM)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="3" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="3" name="inputkategori"
                                 id="flexRadioDefault3">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 L MTH AKSESORIS (LK)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="4" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="4" name="inputkategori"
                                 id="flexRadioDefault4" >
                             <label class="form-check-label" for="flexRadioDefault2">
                                 L MTH TABUNG (LK)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="5" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="5" name="inputkategori"
                                 id="flexRadioDefault5">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 L QUEENLY
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="6" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="6" name="inputkategori"
                                 id="flexRadioDefault6" >
                             <label class="form-check-label" for="flexRadioDefault2">
                                 S MTH STEMPEL (IM)
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" value="7" name="inputketegori"
+                            <input class="form-check-input" type="radio" value="7" name="inputkategori"
                                 id="flexRadioDefault7" >
                             <label class="form-check-label" for="flexRadioDefault2">
                                 SP MTH SPAREPART (LK)
